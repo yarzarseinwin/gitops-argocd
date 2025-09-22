@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx
+      - image: httpd
         name: nginx
         imagePullPolicy: Always
         ports: 
